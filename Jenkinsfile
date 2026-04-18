@@ -10,10 +10,10 @@ pipeline {
 
   stages{
 
-    stage ('build the code'){
+    stage ('build with maven'){
       steps {
         script{
-          sh 'javac HelloWorld.java'
+          sh "mvn clean install"
         }
       }
     }
