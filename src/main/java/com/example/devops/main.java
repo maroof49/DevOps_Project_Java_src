@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @SpringBootApplication
 @RestController
-public class HelloDevOps {
+public class main {
 
     public static void main(String[] args) {
         SpringApplication.run(HelloDevOps.class, args);
@@ -20,11 +20,5 @@ public class HelloDevOps {
     @GetMapping("/health")
     public String healthCheck() {
         return "Application is healthy!";
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello DevOps!");
     }
 }
