@@ -7,7 +7,7 @@
     <groupId>com.example</groupId>
     <artifactId>main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>maim</name>
+    <name>main</name>
     <description>Basic DevOps demo project</description>
 
     <properties>
