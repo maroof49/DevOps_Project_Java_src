@@ -48,7 +48,7 @@
                  <archive>
                    <manifest>
                      <addClasspath>true</addClasspath>
-                     <mainClass>com.example.Main</mainClass>
+                     <mainClass>com.example.devops.main</mainClass>
                    </manifest>
                  </archive>
                </configuration>
