@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class main {
 
     public static void main(String[] args) {
-        SpringApplication.run(HelloDevOps.class, args);
+        SpringApplication.run(main.class, args);
     }
 
     @GetMapping("/")
