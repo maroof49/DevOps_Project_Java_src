@@ -2,6 +2,9 @@ pipeline {
 
   agent any
 
+  tools {
+    maven 'maven'
+  }
   environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials') 
         DOCKER_IMAGE = "maroof49/test_prod"
