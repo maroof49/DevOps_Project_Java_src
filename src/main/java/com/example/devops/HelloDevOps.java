@@ -1,4 +1,5 @@
 package com.example.devops;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,5 +21,11 @@ public class HelloDevOps {
     @GetMapping("/health")
     public String healthCheck() {
         return "Application is healthy!";
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello DevOps!");
     }
 }
