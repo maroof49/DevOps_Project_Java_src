@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>hello-devops</artifactId>
+    <artifactId>main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>HelloDevOps</name>
+    <name>maim</name>
     <description>Basic DevOps demo project</description>
 
     <properties>
