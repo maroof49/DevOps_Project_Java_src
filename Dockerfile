@@ -22,7 +22,7 @@ WORKDIR /app
 COPY --from=builder /app/target/hello-devops-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose application port
-EXPOSE 8080
+EXPOSE 8082
 
 # Run the application
 ENTRYPOINT ["java","-jar","app.jar"]
